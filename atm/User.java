@@ -12,7 +12,7 @@ public class User {
 	
 	public void createAcc() {//create account
 	        
-		System.out.print("Enter Account No: ");  
+	System.out.print("Enter Account No: ");  
         accno = sc.nextLong();   
          
         System.out.print("Enter Balance: ");  
@@ -32,8 +32,8 @@ public class User {
     }
 	
 	public void withdrawBalance() {  // withdraw Balance
-		double amount;  
-		System.out.print("Enter Account No: ");  
+	double amount;  
+	System.out.print("Enter Account No: ");  
         accno = sc.nextLong();
         
         System.out.println("Enter withdraw amount: ");  
@@ -50,7 +50,7 @@ public class User {
 	
 	public void viewBalance() { // show balance
 		
-		System.out.print("Enter Account No: ");  
+	System.out.print("Enter Account No: ");  
         accno = sc.nextLong();
         
         System.out.println("Available Balance: "+balance);
